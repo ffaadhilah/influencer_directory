@@ -1,4 +1,3 @@
-# mezink_flutter_hiring_challenge
 # Influencer Directory
 
 This is a Flutter web application that displays a directory of influencers.
