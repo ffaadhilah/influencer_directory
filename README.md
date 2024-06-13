@@ -1,16 +1,23 @@
 # mezink_flutter_hiring_challenge
+# Influencer Directory
 
-A new Flutter project.
+This is a Flutter web application that displays a directory of influencers.
 
-## Getting Started
+## Hosted URL
+The application is hosted on Firebase and can be accessed at: https://influencer-directory-ff.web.app
 
-This project is a starting point for a Flutter application.
+## Features
+- Search influencers by name.
+- Sort influencers by various columns (Name, Email, Grade, Followers, Engagement Rate, Tags, Hashtags).
+- Filter influencers by Followers and Grade.
+- Pagination to navigate through the list of influencers.
 
-A few resources to get you started if this is your first Flutter project:
+## Special Features
+- The table includes sorting functionality, allowing users to click on column headers to sort the data.
+- The table is styled to be responsive and centered with a fixed width.
+- Real-time search functionality is implemented to filter the results based on user input.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Considerations
+- The application is designed to be responsive and works well on different screen sizes.
+- Code is structured and commented to enhance readability and maintainability.
+- Used Provider for state management to manage the state of the application efficiently.
